@@ -1,10 +1,22 @@
-# air_quality_classification
-An ML project that classifies the Air Quality based on parameters like pollutants concentration, population density, distance from industrial location etc.
+# **Air Quality Classification - Machine Learning Project**  
 
--> The dataset used for the project is also provided
--> There are 2 project files:
-1. The ipynb file is the full project. Please refer this for the step by step ML project.
-2. The .py file is a compact, final build model that does only the classification from the user inputs. So please refer to the Jupyter file if any confusion arises.
+This project aims to classify **Air Quality** based on various parameters such as:  
+✅ Pollutant concentration  
+✅ Population density  
+✅ Distance from industrial locations  
+... and more.
 
--> The built model has been pickled. If anyone wants to use the model for their own tests, feel free to use them.
-ty!
+## **📂 Project Files**  
+- **`AirQualityClassification.ipynb`** – A Jupyter Notebook containing the **full step-by-step implementation** of the project, including **data preprocessing, model training, evaluation, and insights**.  
+- **`AirQualityClassifier.py`** – A **compact Python script** for classification. This is the final build that takes user input and returns predictions. If any confusion arises, refer to the Jupyter file.  
+- **`rf_model.pkl`** – The trained and pickled **machine learning model**, which can be reused for classification tasks.  
+
+## **🗂 Dataset**  
+The dataset used for this project is **provided** within the repository. It contains air quality parameters, pollution levels, and relevant environmental factors.  
+
+## **⚡ How to Use the Model**  
+1️⃣ Load the pickled model (`rf_model.pkl`).  
+2️⃣ Provide user input (pollutant levels, population density, etc.).  
+3️⃣ Get the predicted **Air Quality classification**.  
+
+Feel free to use the model for your own tests! 🎯  
